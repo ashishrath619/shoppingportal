@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nevagation_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nevagation_section .logo img {
+  width: 10rem;
+  height: auto;
+}
+
+.nevagation_section .navbar {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: right;
+  margin-right: 5rem;
+}
+
+.nevagation_section .navbar li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.nevagation_section .navbar li a {
+  text-decoration: none;
+}
+
+.nevagation_section img {
+  height: 2rem;
+  width: auto;
+  padding-right: 2rem;
+}
+/*# sourceMappingURL=navbar.css.map */

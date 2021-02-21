@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    padding: 2rem 10rem;
+}
+
+.centered_text {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.product_card {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+    justify-content: center;
+    padding: 0rem 3rem;
+
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    img {
+        width: 15.5rem;
+        height: auto;
+        margin: 0rem 0.5rem;
+        transition: 1s;
+    }
+
+    img:hover {
+       // transform: translate(0,-1rem);
+        width: 22rem;
+       // width: 17rem;
+        height: auto;
+    }
+
+    figcaption {
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+        padding: 0.5rem;
+        color: black;
+
+        i {
+            color:  #ff523b;
+        }
+
+    }
+
+}
+

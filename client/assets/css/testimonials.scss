@@ -1,0 +1,72 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.testomonial {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 6rem 6rem 4rem 6rem;
+
+    div { 
+        max-width: 20rem;
+        padding: 0rem 2rem;
+        background-color: rgb(253, 251, 251);
+        margin: 0.5rem;
+        border-radius: 1rem;
+        border-width: 1rem;
+        border: 5px solid rgb(240, 239, 239);
+
+        .fa-star, .fa-star-half, .fa-star-0 {
+            color: #ff4400;
+        }
+
+        i, p {
+            padding: 0.5rem 0rem;
+        }
+
+       figure {
+
+        img {
+            border-radius: 50%;
+            height: 6rem;
+            width: auto;
+            padding: 0.5rem 0rem;
+        }
+
+        figcaption {
+            padding: 2rem 0rem;
+        }
+
+       }
+        
+
+        a {
+            text-decoration: none;
+            font-weight: bolder;
+            color: #000;
+        }
+
+    }
+
+}
+
+.tieup_companies_logo {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 3rem;
+
+    div {
+        padding: 1rem;
+
+        img {
+            height: 5.5rem;
+            width: auto;
+        }
+
+    }
+
+}

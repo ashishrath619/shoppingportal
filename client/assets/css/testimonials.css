@@ -1,0 +1,72 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.testomonial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 6rem 6rem 4rem 6rem;
+}
+
+.testomonial div {
+  max-width: 20rem;
+  padding: 0rem 2rem;
+  background-color: #fdfbfb;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  border-width: 1rem;
+  border: 5px solid #f0efef;
+}
+
+.testomonial div .fa-star, .testomonial div .fa-star-half, .testomonial div .fa-star-0 {
+  color: #ff4400;
+}
+
+.testomonial div i, .testomonial div p {
+  padding: 0.5rem 0rem;
+}
+
+.testomonial div figure img {
+  border-radius: 50%;
+  height: 6rem;
+  width: auto;
+  padding: 0.5rem 0rem;
+}
+
+.testomonial div figure figcaption {
+  padding: 2rem 0rem;
+}
+
+.testomonial div a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #000;
+}
+
+.tieup_companies_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.tieup_companies_logo div {
+  padding: 1rem;
+}
+
+.tieup_companies_logo div img {
+  height: 5.5rem;
+  width: auto;
+}
+/*# sourceMappingURL=testimonials.css.map */

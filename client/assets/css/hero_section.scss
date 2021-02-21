@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero_section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 3rem 0rem;
+    
+    .tagline {
+        padding: 10rem 0rem 9rem 0rem;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        float: right;
+    }
+
+    h1 {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    button {
+        border: none;
+        color: #fff;
+        background-color: #ff523b;
+        padding: 0.5rem 2rem;
+        border-radius: 1rem;
+        margin: 1rem 0rem;
+        transition: background-color 2s;
+    }
+
+    button:hover {
+        background: #563434; 
+    }
+
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+$black: #000;
+
+.featured_catagories {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 0rem;
+    a {
+        text-decoration: none;
+        color: $black;
+    }
+
+    img {
+        width: 21rem;
+        height: auto;
+        margin: 0rem 0.5rem;
+        border-radius: 1rem;
+        transition: 2s;
+    }
+
+    img:hover {
+        width: 22rem;
+        height: auto;
+    }
+
+    figcaption {
+        font-size: 2rem;
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+}
